@@ -1,0 +1,27 @@
+{
+  "name": "bdd-bank-ts",
+  "version": "1.0.0",
+  "description": "BDD implementation of features for a bank application",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js -p default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathantunes/bdd-bank-ts.git"
+  },
+  "author": "Matheus Jesus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathantunes/bdd-bank-ts/issues"
+  },
+  "homepage": "https://github.com/mathantunes/bdd-bank-ts#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/cucumber": "^7.0.0",
+    "chai": "^4.2.0",
+    "cucumber": "^7.0.0-rc.0",
+    "cucumber-pretty": "^6.0.0",
+    "cucumber-tsflow": "^4.0.0-rc.1"
+  }
+}
